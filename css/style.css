@@ -1,0 +1,28 @@
+.social-button {
+  margin: 0.5em;
+  font-size: 3vw;
+}
+
+#gravatar {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.project-card {
+  width: 18rem;
+  margin: auto;
+}
+
+.auto-scale {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+main li {
+  list-style-type: none;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/*# sourceMappingURL=style.css.map */

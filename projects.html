@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="description"
+          content="The official homepage of Owen Ryan!">
+    
+    
+    
+    <meta name="keywords" content="Owen Ryan">
+    <meta name="author" content="Owen Ryan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Ryan</title>
+    <script src="/assets/utils.js"></script>
+    
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+    <script>
+        lazyLoadCSS('https://use.fontawesome.com/releases/v6.4.0/css/all.css');
+    </script>
+</head>
+<body class="d-flex flex-column h-100">
+<div class="container">
+    <header class="header d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+           href="/">
+            <img id="gravatar" class="bi me-2" alt="Owen's Gravatar"
+                 src="https://www.gravatar.com/avatar/6ad4a9bcc388180c6d2ca34e0c185a8c?size=128">
+            <span class="fs-4">Owen Ryan</span>
+        </a>
+        <ul class="nav nav-pills"><li class="nav-item">
+                <a class="nav-link" href="/"
+                   aria-current="page">Home</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="/about"
+                   aria-current="page">About</a>
+            </li><li class="nav-item">
+                <a class="nav-link active" href="/projects"
+                   aria-current="page">Projects</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="/contact"
+                   aria-current="page">Contact</a>
+            </li></ul>
+    </header>
+</div>
+
+<main class="flex-shrink-0">
+    <div class="container">
+    <div class="row"><div class="col p-2">
+                <div class="card project-card"><img src="/assets/images/website.webp" class="card-img-top" alt="This website thumbnail"><div class="card-body">
+                        <a class="card-title text-body-emphasis" href="/2023/05/06/website.html">This website</a>
+                        <p class="card-text">The self-built site using Jekyll, Bootstrap, TypeScript, and more!</p>
+                    </div>
+                </div>
+            </div><div class="col p-2">
+                <div class="card project-card"><img src="/assets/images/jambox.webp" class="card-img-top" alt="Jambox thumbnail"><div class="card-body">
+                        <a class="card-title text-body-emphasis" href="/2023/05/06/jambox.html">Jambox</a>
+                        <p class="card-text">Discord music bot built with Hikari and Lavalink</p>
+                    </div>
+                </div>
+            </div><div class="col p-2">
+                <div class="card project-card"><img src="/assets/images/informinator.webp" class="card-img-top" alt="Informinator thumbnail"><div class="card-body">
+                        <a class="card-title text-body-emphasis" href="/2023/05/06/informinator.html">Informinator</a>
+                        <p class="card-text">News aggregator built with Python, AioHTTP, and Jinja</p>
+                    </div>
+                </div>
+            </div><div class="col p-2">
+                <div class="card project-card"><img src="/assets/images/calculators.webp" class="card-img-top" alt="Adventures with old calculators thumbnail"><div class="card-body">
+                        <a class="card-title text-body-emphasis" href="/2023/05/06/calculators.html">Adventures with old calculators</a>
+                        <p class="card-text">Shenanigans with graphing calculators my school was throwing away</p>
+                    </div>
+                </div>
+            </div></div>
+</div>
+
+</main>
+
+
+<footer class="row justify-content-center mt-auto py-3 bg-body-tertiary">
+    <span class="col footer-text mx-5">© 2023 Owen Ryan | Icons by FontAwesome</span>
+</footer>
+
+<script src="//assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

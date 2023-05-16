@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="description"
+          content="Discord music bot built with Hikari and Lavalink">
+    
+    
+    
+    <meta name="keywords" content="Owen Ryan, Discord, Python, Hikari, Lavalink">
+    <meta name="author" content="Owen Ryan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jambox | Owen Ryan</title>
+    <script src="/assets/utils.js"></script>
+    
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+    <script>
+        lazyLoadCSS('https://use.fontawesome.com/releases/v6.4.0/css/all.css');
+    </script>
+</head>
+<body class="d-flex flex-column h-100">
+<div class="container">
+    <header class="header d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+           href="/">
+            <img id="gravatar" class="bi me-2" alt="Owen's Gravatar"
+                 src="https://www.gravatar.com/avatar/6ad4a9bcc388180c6d2ca34e0c185a8c?size=128">
+            <span class="fs-4">Owen Ryan</span>
+        </a>
+        <ul class="nav nav-pills"><li class="nav-item">
+                <a class="nav-link" href="/"
+                   aria-current="page">Home</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="/about"
+                   aria-current="page">About</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="/projects"
+                   aria-current="page">Projects</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="/contact"
+                   aria-current="page">Contact</a>
+            </li></ul>
+    </header>
+</div>
+
+<main class="flex-shrink-0">
+    <div class="container">
+    <div class="row d-flex">
+        <div class="col-md-auto p-2">
+            <div class="card project-card">
+                
+                    <img src="/assets/images/jambox.webp" class="card-img-top" alt="Jambox thumbnail">
+                
+                <div class="card-body">
+                    <p>Discord music bot built with Hikari and Lavalink</p>
+                    
+                        <a href="https://discord.com/api/oauth2/authorize?client_id=1102705272805404722&permissions=4298394880&scope=applications.commands%20bot" class="btn btn-primary">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Project
+                        </a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <p>Jambox is a <em>soon-to-be</em> open source Discord music bot built for convince. It utilises the
+<a href="https://github.com/lavalink-devs/Lavalink">Lavalink</a> audio node for streaming music, and also adds support for
+streaming local files¹. Jambox was built from the ground up using Discord’s modern feature set, and
+utilises <a href="https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ">slash commands</a>, embeds,
+message components¹, and modals¹.</p>
+
+<ul>
+  <li>¹ - Features are not currently implemented, but are planned additions</li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+</main>
+
+
+<footer class="row justify-content-center mt-auto py-3 bg-body-tertiary">
+    <span class="col footer-text mx-5">© 2023 Owen Ryan | Icons by FontAwesome</span>
+</footer>
+
+<script src="//assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
